@@ -14,6 +14,8 @@ API desenvolvida em Node.js com objetivo de gerenciar usuários, autenticação 
   - [Execução](#execução)
   - [Para Build e Produção](#para-build-e-produção)
   - [📡 Endpoints](#-endpoints)
+    - [Usuário:](#usuário)
+    - [Formulários:](#formulários)
 
 ---
 
@@ -30,8 +32,8 @@ API desenvolvida em Node.js com objetivo de gerenciar usuários, autenticação 
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/grm-node-api.git
-cd grm-node-api
+git clone https://github.com/grupo-worksystem/grm-api.git
+cd grm-api
 
 ```
 
@@ -58,6 +60,8 @@ npm start
 
 ## 📡 Endpoints
 
+### Usuário:
+
 | Método | Rota             | Descrição                 | Protegida |
 | ------ | ---------------- | ------------------------- | --------- |
 | POST   | `/api/auth`      | Autenticação (login)      | ❌        |
@@ -66,3 +70,13 @@ npm start
 | GET    | `/api/user/{id}` | Busca usuário por Id      | ✅        |
 | PUT    | `/api/user/{id}` | Atualiza dados do usuário | ✅        |
 | DELETE | `/api/user/{id}` | Remove o usuário          | ✅        |
+
+### Formulários:
+
+| Método | Rota             | Descrição                 | Protegida  |
+| ------ | ---------------- | ------------------------- | ---------  |
+| POST   | `/api/form`      | Cria um novo usuário      | ✅        |
+| GET    | `/api/form/all`  | Lista todos usuários      | ✅        |
+| GET    | `/api/form/{id}` | Busca usuário por Id      | ✅        |
+| PUT    | `/api/form/{id}` | Atualiza dados do usuário | ✅        |
+| DELETE | `/api/form/{id}` | Remove o usuário          | ✅        |
