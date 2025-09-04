@@ -73,10 +73,10 @@ npm start
 
 ### Formulários:
 
-| Método | Rota             | Descrição                 | Protegida  |
-| ------ | ---------------- | ------------------------- | ---------  |
-| POST   | `/api/form`      | Cria um novo usuário      | ✅        |
-| GET    | `/api/form/all`  | Lista todos usuários      | ✅        |
-| GET    | `/api/form/{id}` | Busca usuário por Id      | ✅        |
-| PUT    | `/api/form/{id}` | Atualiza dados do usuário | ✅        |
-| DELETE | `/api/form/{id}` | Remove o usuário          | ✅        |
+| Método | Rota             | Descrição                    | Protegida |
+| ------ | ---------------- | ---------------------------- | --------- |
+| POST   | `/api/form`      | Cria um novo formulário      | ✅        |
+| GET    | `/api/form/all`  | Lista todos formulário       | ✅        |
+| GET    | `/api/form/{id}` | Busca formulário por Id      | ✅        |
+| PUT    | `/api/form`      | Atualiza dados do formulário | ✅        |
+| DELETE | `/api/form/{id}` | Remove o usuário             | ✅        |
